@@ -1,7 +1,31 @@
 @extends('_layouts.main')
 
 @section('body')
-<div class="w-[1284px] h-[601px] relative">
+<div class="relative bg-contain bg-no-repeat h-[601px] bg-[url('assets/images/hero.png')]">
+    <div class="absolute top-0 right-0">
+        <div class="text-[58px] font-bold pt-8">
+            <span>Қазақ тілін</span><br/>
+            <span class="text-orange-400">til-jumsar.kz</span><br/>
+            <span>арқылы үйреніңіз</span>
+        </div>
+        <div class="w-96 h-14 flex flex-row mt-24 justify-around">
+            <div class="">
+                <span class="text-gray-700 text-5xl font-bold font-['Inter'] leading-10">350</span><span class="text-gray-700 text-5xl font-bold font-['Sen'] leading-10"> </span><span class="text-gray-700 text-lg font-semibold font-['Inter'] leading-loose">Студент</span>
+            </div>
+            <div class="">
+                <span class="text-gray-700 text-5xl font-bold font-['Inter'] leading-10">70+ </span><span class="text-gray-700 text-lg font-semibold font-['Inter'] leading-loose">Cабақ</span>
+            </div>
+        </div>
+        <div>
+            <a href="#"
+            class="inline-block text-center rounded bg-slate-600 text-white px-6 pb-4 pt-4 mt-10 w-[400px]">
+            Бастау
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--<div class="w-[1284px] h-[601px] relative">
   <div class="w-[917px] h-[601px] left-0 top-0 absolute">
     <div class="w-[917px] h-[601px] left-0 top-0 absolute">
       <img class=" left-[36.27px] top-0 absolute" src="assets/images/hero.png" />
@@ -34,19 +58,15 @@
         <div class="left-[201px] top-0 absolute">
             <span class="text-gray-700 text-5xl font-bold font-['Inter'] leading-10">70+ </span><span class="text-gray-700 text-lg font-semibold font-['Inter'] leading-loose">Cабақ</span></div>
         </div>
-      <!--<div class="left-0 top-0 absolute"><span style="text-gray-700 text-[44px] font-bold font-['Inter'] leading-[54px]">350</span><span style="text-gray-700 text-[44px] font-bold font-['Sen'] leading-[54px]"> </span><span style="text-gray-700 text-lg font-semibold font-['Inter'] leading-[30px]">Студент</span></div>
-      <div class="left-[201px] top-0 absolute"><span style="text-gray-700 text-[44px] font-bold font-['Inter'] leading-[54px]">70+ </span><span style="text-gray-700 text-lg font-semibold font-['Inter'] leading-[30px]">Cабақ</span></div>-->
     </div>
     <div class="text-[58px] font-bold">
         <span>Қазақ тілін</span><br/>
         <span class="text-orange-400">til-jumsar.kz</span><br/>
         <span>арқылы үйреніңіз</span>
     </div>
-    <!--<div class="w-[547px]"><span style="text-gray-700 text-6xl font-bold font-['Inter'] capitalize leading-[80px]">Қазақ тілін X<br/></span><span style="text-orange-400 text-6xl font-bold  leading-[80px]">til-jumsar.kz<br/></span><span style="text-gray-700 text-6xl font-bold font-['Inter'] capitalize leading-[80px]">арқылы үйреніңіз</span></div>-->
-    <!--
-    <div class="w-[547px] left-0 top-0 absolute"><span style="text-gray-700 text-[58px] font-bold font-['Inter'] capitalize leading-[80px]">Қазақ тілін <br/></span><span style="text-orange-400 text-[58px] font-bold font-['Inter'] capitalize leading-[80px]">til-jumsar.kz<br/></span><span style="text-gray-700 text-[58px] font-bold font-['Inter'] capitalize leading-[80px]">арқылы үйреніңіз</span></div>-->
   </div>
 </div>
+-->
 <div class="py-10">
     <div class="my-5 self-stretch text-center text-gray-700 text-4xl font-semibold font-['Inter'] leading-10">Біз ұсынатын қазақ тілін үйрену тәсілдері</div>
     <div class="my-10 flex flex-row justify-around">
