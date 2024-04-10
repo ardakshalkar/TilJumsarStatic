@@ -1,6 +1,6 @@
 <div class="flex flex-row">
   <div class="w-3/4">
-    <img src="assets/images/logo.svg"/>
+    <img src="{{ $page->getBaseUrl() }}/assets/images/logo.svg"/>
   </div>
   <div class="w-1/4">
     <div class="w-[58px] h-10 rounded-lg justify-start items-start inline-flex">
