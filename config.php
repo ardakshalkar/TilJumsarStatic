@@ -13,7 +13,8 @@ return [
             
         ],
         'videos'=>[
-            'path'=>'{lesson}/videos'
+        ],
+        'texts'=>[
         ]
     ],
 ];

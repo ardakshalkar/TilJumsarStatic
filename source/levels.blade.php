@@ -17,7 +17,7 @@
             <img class="w-full" src="{{ $page->getBaseUrl() }}/assets/images/{{ $lesson->image }}"/>
             <div class="flex flex-row justify-evenly font-['Inter'] my-5">
                 <div class="px-3" >
-                    <a href="" class="text-2xl hover:font-bold">Бейне сабақ</a>
+                    <a href="{{ $page->getBaseUrl() }}/videos/index.html" class="text-2xl hover:font-bold">Бейне сабақ</a>
                     <div class="discrete_progress_bar" style="background-position:{{ -100 + (4-$lesson->videoLesson)*25 }}%"></div>
                 </div>
                 <div class="px-3">
@@ -25,11 +25,11 @@
                     <div class="discrete_progress_bar" style="background-position:{{ -100 + (4-$lesson->videoRecord)*25 }}%"></div>
                 </div>
                 <div class="px-3">
-                    <a href="" class="text-2xl hover:font-bold">Мәтін</a>
+                    <a href="{{ $page->getBaseUrl() }}/texts/index.html" class="text-2xl hover:font-bold">Мәтін</a>
                     <div class="discrete_progress_bar" style="background-position:{{ -100 + (4-$lesson->text)*25 }}%"></div>
                 </div>
                 <div class="px-3">
-                    <a href="" class="text-2xl hover:font-bold">Ән айту</a>
+                    <a href="{{ $page->getBaseUrl() }}/songs/index.html" class="text-2xl hover:font-bold">Ән айту</a>
                     <div class="discrete_progress_bar" style="background-position:{{ -100 + (4-$lesson->song)*25 }}%"></div>
                 </div>
             </div>

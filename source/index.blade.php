@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-<div class="relative bg-contain bg-no-repeat h-[601px] bg-[url('assets/images/hero.png')]">
+<div class="m-10 relative bg-contain bg-no-repeat h-[601px] bg-[url('assets/images/hero.png')]">
     <div class="absolute top-0 right-0">
         <div class="text-[58px] font-bold pt-8">
             <span>Қазақ тілін</span><br/>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div>
-            <a href="#"
+            <a href="{{ $page->getBaseUrl() }}/levels/index.html"
             class="inline-block text-center rounded bg-slate-600 text-white px-6 pb-4 pt-4 mt-10 w-[400px]">
             Бастау
             </a>
