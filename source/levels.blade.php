@@ -13,7 +13,11 @@
     <div class="flex flex-col">
     @foreach ($lessons as $lesson)
         <div class="border hover:border-red-500 border-gray-200 rounded-lg p-5 my-2 bg-white">
-            <a href="{{ $lesson->getUrl() }}" class="py-2 font-['Inter'] text-3xl hover:underline font-bold">{{ $lesson->title }}</a>
+            <span class="w-6 h-6 rounded-full  inline-flex items-center justify-center  
+                bg-white text-gray-700 text-xl font-bold border-gray-900 border-2">{{ $lesson->lessonOrder }}</span>
+            <a href="{{ $lesson->getUrl() }}/index.html" class="py-2 font-['Inter'] text-3xl hover:underline font-bold"> 
+                {{ $lesson->title }}
+            </a>
             <img class="w-full" src="{{ $page->getBaseUrl() }}/assets/images/{{ $lesson->image }}"/>
             <div class="flex flex-row justify-evenly font-['Inter'] my-5">
                 <div class="px-3" >
