@@ -11,6 +11,7 @@ lessonId: 1
 textId: 1_texts
 videoId: 1_video
 songId: 1_song
+youtube: https://www.youtube.com/embed/5bnL97QUUng
 ---
 
 Сенің атың кім?

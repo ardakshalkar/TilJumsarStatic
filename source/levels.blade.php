@@ -22,7 +22,10 @@
             <!--<img class="w-full" src="{{ $page->getBaseUrl() }}/assets/images/{{ $lesson->image }}"/>-->
             <div class="flex flex-row justify-evenly font-['Inter'] my-5">
                 <div class="px-3" >
-                    <a href="{{ $page->getBaseUrl() }}/videos/{{ $lesson->lessonId }}-video/index.html" class="text-2xl hover:font-bold">Бейне сабақ</a>
+                    <a href="{{ $lesson->getUrl() }}/index.html" class="text-2xl hover:font-bold">
+                        Бейне сабақ
+                    </a>
+                    <!--<a href="{{ $page->getBaseUrl() }}/videos/{{ $lesson->lessonId }}-video/index.html" class="text-2xl hover:font-bold">Бейне сабақ</a>-->
                     <div class="discrete_progress_bar" style="background-position:{{ -100 + (4-$lesson->videoLesson)*25 }}%"></div>
                 </div>
                 <div class="px-3">
