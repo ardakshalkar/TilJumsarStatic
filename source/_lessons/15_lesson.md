@@ -7,6 +7,8 @@ videoRecord: 4
 text: 4
 song: 4
 lessonOrder: 15
+lessonId: 4
+videoId: 4_video
 ---
 
 Сенің атың кім?

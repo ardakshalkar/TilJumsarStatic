@@ -18,14 +18,16 @@
             <a href="{{ $lesson->getUrl() }}/index.html" class="py-2 font-['Inter'] text-3xl hover:underline font-bold"> 
                 {{ $lesson->title }}
             </a>
-            <img class="w-full" src="{{ $page->getBaseUrl() }}/assets/images/{{ $lesson->image }}"/>
+            <img class="w-full" src="{{ $page->getBaseUrl() }}/assets/images/dummy_banner2.png"/>
+            <!--<img class="w-full" src="{{ $page->getBaseUrl() }}/assets/images/{{ $lesson->image }}"/>-->
             <div class="flex flex-row justify-evenly font-['Inter'] my-5">
-                <div class="px-3" >
-                    <a href="{{ $page->getBaseUrl() }}/videos/index.html" class="text-2xl hover:font-bold">Бейне сабақ</a>
+                <div class="px-3" > 
+                    <a href="{{ $page->getBaseUrl() }}/videos/{{ $lesson->lessonId }}-video/index.html" class="text-2xl hover:font-bold">Бейне сабақ</a>
                     <div class="discrete_progress_bar" style="background-position:{{ -100 + (4-$lesson->videoLesson)*25 }}%"></div>
                 </div>
                 <div class="px-3">
-                    <a href="" class="text-2xl hover:font-bold">Бейне жазба</a>
+                    <!--{{ $lesson->videoId }}-->
+                    <a href="{{ $videos[$lesson->videoId]->getUrl() }}/index.html" class="text-2xl hover:font-bold">Бейне жазба</a>
                     <div class="discrete_progress_bar" style="background-position:{{ -100 + (4-$lesson->videoRecord)*25 }}%"></div>
                 </div>
                 <div class="px-3">
