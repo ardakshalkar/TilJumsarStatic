@@ -1,37 +1,32 @@
 @extends('_layouts.main')
 
 @section('body')
-<h1 class="text-xl my-3 font-bold">{{ $page->title }}</h1>
-<!--<img class="w-1/4" src="{{ $page->getBaseUrl() }}/assets/images/{{ $page->image }}"/>-->
-
+<div class="p-4 mt-4 flex items-center rounded-3xl bg-gray-200">
+    <a href="{{ $page->getBaseUrl() }}/index.html" class="text-xl ms-1 text-blue-600 underline">
+        Басты бет
+    </a>
+    <svg class="rtl:rotate-180 block w-3 h-3 mx-1 text-gray-400 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+        </svg>
+    <a href="{{ $page->getBaseUrl() }}/levels/index.html" class="text-xl text-blue-600 underline">
+        A1
+    </a>
+    <svg class="rtl:rotate-180 block w-3 h-3 mx-1 text-gray-400 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+        </svg>
+        
+    <a href="{{ $lessons[$page->lessonId]->getUrl() }}/index.html" class="text-xl text-blue-600 underline">
+        {{ $lessons[$page->lessonId]->title }}
+    </a>
+    <svg class="rtl:rotate-180 block w-3 h-3 mx-1 text-gray-400 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+        </svg>
+    <span class="text-xl">Мәтін: {{ $page->title }}</span>
+</div>
+<h1 class="p-5 text-2xl font-bold font-['Inter'] text-center">Мәтін:  {{ $page->title }}</h1>
 <div class="flex">
-    <div class="w-1/2 p-5">
-        <pre style="white-space: pre-wrap;" class="overflow-x-auto break-words">Әкесі он жасар ұл баласымен далада келе жатады. Әкесі баласынан сұрады:
-– Анау өрмекшіні көрдің бе, не істеп жүр?
-– Көрдім, өрмек тоқып жүр.
-– Анау құмырсқаны көрдің бе?
-– Көрдім, аузында бір нанның қиқымы бар, жүгіріп кетіп барады.
-– Жоғары қара, аспанда не көрінеді?
-– Жоғарыда қарлығаш ұшып жүр, аузында тістеген шөбі бар.
-Сонда әкесі айтты:
-– Олай болса, шырағым, осы кішкентай жәндіктер саған үлгі. Өрмекші маса, шыбынға тұзақ құрып жүр, ұстап алған соң, өзіне азық етеді.
-Құмырсқа бала-шағасына тамақ аулап, бір нанның қиқымын тапқан соң, өзі жемей, аузына тістеп, қуанғанынан үйіне жүгіріп қайтып барады.
-Қарлығаш балапандарына ұя істеуге шөп жинап жүр. Жұмыссыз жүрген бір жан жоқ. Сені де Құдай бос жүруге жаратпаған, жұмыс істеуге әдеттену керек, – деді.</pre>
-    </div>
-    <div class="w-1/2 p-5">
-        <pre style="white-space: pre-wrap;" class="overflow-x-auto break-words">
-        Отец и его десятилетний сын шли по полю. Отец спросил сына:
-– Видишь вон того паука, что он делает?
-– Вижу, он плетет паутину.
-– Видишь вон того муравья?
-– Вижу, он бежит с крошкой хлеба во рту.
-– Посмотри вверх, что видно в небе?
-– Вверху летит ласточка и в клюве держит травку.
-Тогда его отец говорит:
-– Раз так, светик мой, эти маленькие существа для тебя пример. Паук расставляет паутину для комаров и мух, и после того, как поймал, употребляет их в пищу.
-Муравей ищет пищу для своих детей. Найдя одну крошку хлеба, он не съест ее, а возьмет в рот и от радости побежит обратно домой.
-Ласточка собирает травку, чтобы сделать гнездо для своих птенцов. Нет ни одной живой души, которая не трудилась бы. И тебя Бог создал не для того, чтобы бездельничать, нужно привыкать к труду.
-        </pre>
+    <div class="w-full m-5 content-center">
+        <iframe class="mx-auto" width="840" height="450" src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
 @endsection

@@ -9,6 +9,8 @@ song: 4
 lessonOrder: 12
 lessonId: 4
 videoId: 4_video
+textId: 2_texts
+songId: 1_song
 ---
 
 Сенің атың кім?

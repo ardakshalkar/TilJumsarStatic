@@ -8,7 +8,9 @@ text: 2
 song: 2
 lessonOrder: 1
 lessonId: 1
+textId: 1_texts
 videoId: 1_video
+songId: 1_song
 ---
 
 Сенің атың кім?
