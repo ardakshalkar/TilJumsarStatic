@@ -3,18 +3,14 @@ extends: _layouts.lesson
 title: Дүкенде не бар?
 image: lesson_banner.png
 videoLesson: 4
-videoRecord: 4
-text: 4
-song: 4
+videoRecord: 3
+text: 2
+song: 2
 lessonOrder: 12
-lessonId: 4
-videoId: 4_video
-textId: 2_texts
-songId: 1_song
+lessonId: 12
+textId: 12_text
+videoId: 12_video
+songId: 12_song
+youtube: https://www.youtube.com/embed/2g-tJ77kakY
 ---
 
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?

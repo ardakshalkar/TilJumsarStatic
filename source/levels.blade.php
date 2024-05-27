@@ -18,6 +18,7 @@
             <a href="{{ $lesson->getUrl() }}/index.html" class="py-2 font-['Inter'] text-3xl hover:underline font-bold"> 
                 {{ $lesson->title }}
             </a>
+            {{ $lesson }}
             <img class="w-full" src="{{ $page->getBaseUrl() }}/assets/images/dummy_banner2.png"/>
             <!--<img class="w-full" src="{{ $page->getBaseUrl() }}/assets/images/{{ $lesson->image }}"/>-->
             <div class="flex flex-row justify-evenly font-['Inter'] my-5">

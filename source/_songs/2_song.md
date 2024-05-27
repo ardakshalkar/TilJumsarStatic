@@ -1,9 +1,11 @@
 ---
 extends: _layouts.song
-title: Менің атым Қожа
-level: Орта деңгей
+title: Өрмекші, құмырсқа, қарлығаш
+level: Жеңіл деңгей
 image: image_karaoke_1.png
-youtube: https://www.youtube.com/embed/watch?v=XBe9PhGZwQw
+author: Жандос Қаржаубай
+audio: karaoke_1.png
+youtube: https://www.youtube.com/embed/IYwyi1U5Bf8
 lessonId: 2_lesson
+transcription: transcription 
 ---
-Ormekshi, kumurska, karlygash

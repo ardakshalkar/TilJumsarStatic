@@ -3,18 +3,14 @@ extends: _layouts.lesson
 title: Досың қандай адам?
 image: lesson_banner.png
 videoLesson: 4
-videoRecord: 4
-text: 4
-song: 4
+videoRecord: 3
+text: 2
+song: 2
 lessonOrder: 5
-lessonId: 4
-videoId: 4_video
-textId: 2_texts
-songId: 1_song
+lessonId: 5
+textId: 5_text
+videoId: 5_video
+songId: 5_song
+youtube: https://www.youtube.com/embed/Sr8Fzd5TywQ
 ---
 
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?

@@ -3,18 +3,14 @@ extends: _layouts.lesson
 title: Отбасыңда неше адам?
 image: lesson_banner.png
 videoLesson: 4
-videoRecord: 4
-text: 4
-song: 4
+videoRecord: 3
+text: 2
+song: 2
 lessonOrder: 8
-lessonId: 4
-videoId: 4_video
-textId: 2_texts
-songId: 1_song
+lessonId: 8
+textId: 8_text
+videoId: 8_video
+songId: 8_song
+youtube: https://www.youtube.com/embed/-FsvA__kPD8
 ---
 
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?
-Сенің атың кім?
