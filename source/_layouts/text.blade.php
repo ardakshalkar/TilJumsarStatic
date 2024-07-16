@@ -25,8 +25,11 @@
 </div>
 <h1 class="p-5 text-2xl font-bold font-['Inter'] text-center">Мәтін:  {{ $page->title }}</h1>
 <div class="flex">
-    <div class="w-full m-5 content-center">
-        <iframe class="mx-auto" width="840" height="450" src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="w-1/2 m-5 content-center">
+        <iframe class="mx-auto" width="540" height="350" src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="w-1/2">
+        @yield('content')
     </div>
 </div>
 @endsection
