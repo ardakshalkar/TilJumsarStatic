@@ -85,7 +85,7 @@
     </div>
 </div>
 <div class="w-96 h-96 relative">
-  <div class="w-96 left-[494px] top-[113px] absolute text-gray-700 text-2xl font-normal font-['Inter'] leading-10">Спасибо порталу qazedu.kz! Теперь я могу свободно разговаривать на казахском. Ну, не сочиняю стихи, но уже могу говорить на бытовом уровне</div>
+  <div class="w-96 left-[494px] top-[113px] absolute text-gray-700 text-2xl font-normal font-['Inter'] leading-10">Спасибо порталу til-jumsar.kz! Теперь я могу свободно разговаривать на казахском. Ну, не сочиняю стихи, но уже могу говорить на бытовом уровне</div>
   <div class="w-32 h-40 left-[135px] top-[96px] absolute">
     <div class="left-0 top-[128px] absolute text-zinc-800 text-sm font-normal font-['Inter'] leading-relaxed">Инженер</div>
     <div class="left-0 top-[90px] absolute text-gray-700 text-2xl font-bold font-['Inter'] leading-loose">Peter Moor</div>

@@ -26,13 +26,22 @@
 </div>
 <h1 class="p-5 text-2xl font-bold font-['Inter'] text-center">Караоке:  {{ $page->title }}</h1>
 
-<div class="flex">
-  <div class="w-1/2 m-5 content-center">
-      <iframe class="mx-auto" width="640" height="350" src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div >
+  <div class="w-full m-5 content-center">
+    <audio class="w-full" controls>
+      <source src="{{ $page->getBaseUrl()."/assets/audio/karaoke/".$page->audio }}" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
   </div>
-    
-  <div class="w-1/2 content-center columns-2 text-left leading-8 p-4">
-    <pre>@yield('content')</pre>
+  <!--
+  <div class="w-1/2 m-5 content-center">
+      <iframe class="mx-auto" width="640" height="350" 
+      src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+-->
+  <div class="w-full content-center columns-2 text-left leading-8 p-4">
+    <!--<pre>@yield('content')</pre>--> 
+    @yield('content')
   </div>
 
 </div>
