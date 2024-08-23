@@ -5,7 +5,7 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: Rm1NMAvQ2DU
-lessonId: CYR_A2_4
+lessonId: CYR_A2_4_lesson
 ---
 
 Әли Алматы қаласында мұғалім мамандығында оқиды. Ол өте білімді. Әли Алматы қаласында аға- жеңгесі,  ағасы және қарындасымен бірге тұрады.

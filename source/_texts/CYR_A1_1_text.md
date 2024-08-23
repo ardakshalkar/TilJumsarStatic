@@ -5,6 +5,6 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: https://www.youtube.com/embed/LDeRBj5sdGs
-lessonId: CYR_A1_1
+lessonId: CYR_A1_1_lesson
 ---
 Сенің атың кім?

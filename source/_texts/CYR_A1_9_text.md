@@ -5,6 +5,6 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: https://www.youtube.com/embed/PDhiZJfOZ04
-lessonId: CYR_A1_9
+lessonId: CYR_A1_9_lesson
 ---
 Мен жаяу жүремін.

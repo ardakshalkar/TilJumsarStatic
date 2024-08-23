@@ -1,11 +1,15 @@
 @extends('_layouts.main')
 
 @section('body')
+
+
+
 <div class="p-8 ">
     <h1 class="text-3xl font-bold">Деңгейлер!</h1>
     <div class="flex flex-row py-5">
-        <button type="button" class="w-1/2 py-5 px-5 me-2 text-xl mb-2 font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-4 border-red-800 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">A1</button>
-        <button type="button" class="w-1/2 py-5 px-5 me-2 mb-2 text-xl font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">A2</button>
+        
+        <a href="{{ $levels["A1_level"]->getUrl() }}/index.html" class="w-1/2 py-5 px-5 me-2 text-xl mb-2 font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-4 border-red-800 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">A1</a>
+        <a href="{{ $levels["A2_level"]->getUrl() }}/index.html" class="w-1/2 py-5 px-5 me-2 mb-2 text-xl font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">A2</a>
     </div>
     <div class="flex flex-col">
     @foreach ($lessons as $lesson)

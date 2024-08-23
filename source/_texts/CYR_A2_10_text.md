@@ -5,7 +5,7 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: 0yLYp53typE
-lessonId: CYR_A2_10
+lessonId: CYR_A2_10_lesson
 ---
 Қызықты ақпарат.
 Күнделікті қолданылып жүрген жемістер мен

@@ -5,6 +5,6 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: https://www.youtube.com/embed/ds2UDCN_SP8
-lessonId: CYR_A1_7
+lessonId: CYR_A1_7_lesson
 ---
 Қош келдің!

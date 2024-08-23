@@ -5,6 +5,6 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: https://www.youtube.com/embed/CzUaWvrpY7Y
-lessonId: CYR_A1_13
+lessonId: CYR_A1_13_lesson
 ---
 Қандай түс сәнде?

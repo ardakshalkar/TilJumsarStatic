@@ -2,15 +2,19 @@
 
 @section('body')
 <div class="p-8 ">
-    {{ $page }}
-    DD {{ $levels }} DD
+@php
+    $levelLessons = $lessons->filter(function($value, $key) use ($page){
+        return $page->title == $value->level;
+    });
+    $currentLevel = $page->title;
+@endphp
     <h1 class="text-3xl font-bold">Деңгейлер!</h1>
     <div class="flex flex-row py-5">
-        <button type="button" class="w-1/2 py-5 px-5 me-2 text-xl mb-2 font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-4 border-red-800 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">A1</button>
-        <button type="button" class="w-1/2 py-5 px-5 me-2 mb-2 text-xl font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">A2</button>
+        <a href="{{ $levels["A1_level"]->getUrl() }}/index.html" class="{{ $page->title=='A1' ? 'border-4 border-red-800' : 'border border-gray-200' }} text-center w-1/2 py-5 px-5 me-2 text-xl mb-2 font-medium text-gray-900 focus:outline-none bg-white rounded-lg  hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">A1</a>
+        <a href="{{ $levels["A2_level"]->getUrl() }}/index.html" class="{{ $page->title=='A2' ? 'border-4 border-red-800' : 'border border-gray-200' }} text-center w-1/2 py-5 px-5 me-2 mb-2 text-xl font-medium text-gray-900 focus:outline-none bg-white rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">A2</a>
     </div>
     <div class="flex flex-col">
-    @foreach ($lessons as $lesson)
+    @foreach ($levelLessons as $lesson)
         <div class="border hover:border-red-500 border-gray-200 rounded-lg p-5 my-2 bg-white">
             <span class="w-6 h-6 rounded-full  inline-flex items-center justify-center  
                 bg-white text-gray-700 text-xl font-bold border-gray-900 border-2">{{ $lesson->lessonOrder }}</span>

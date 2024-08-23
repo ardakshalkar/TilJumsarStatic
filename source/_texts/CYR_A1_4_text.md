@@ -5,6 +5,6 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: https://www.youtube.com/embed/SgsU53ParUU
-lessonId: CYR_A1_4
+lessonId: CYR_A1_4_lesson
 ---
 Cөмкеңде не бар?

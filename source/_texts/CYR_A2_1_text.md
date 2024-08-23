@@ -5,7 +5,7 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: q_R46ZFo-y8
-lessonId: CYR_A2_1
+lessonId: CYR_A2_1_lesson
 ---
 Жанат , Әли  және Арман - жақын достар. Олар бір университетте оқиды. Жанат суда жүзгенді жақсы көрседі. Әли бокспен айналысады, Арман шаңғы тебеді. 
 

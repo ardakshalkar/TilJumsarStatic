@@ -5,7 +5,7 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: SAlrb1ZzzHY
-lessonId: CYR_A2_14
+lessonId: CYR_A2_14_lesson
 ---
 
 - Сәлеметсіз бе! Бұл онлайн дүкен бе? Әлеуметтік желіден көрген киімдерге тапсырыс берейін деп едім.

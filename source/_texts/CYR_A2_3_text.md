@@ -5,7 +5,7 @@ image: fairy_tale.png
 kazakh: ""
 russian: ""
 youtube: ihjuzo51RM0
-lessonId: CYR_A2_3
+lessonId: CYR_A2_3_lesson
 ---
 Мерей бір күні жолдан басқа адамның күнделігін тауып алды. Күнделіктің бірінші бетін ашып қарап, күнделікті оқи бастады.
 
