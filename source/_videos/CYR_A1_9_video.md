@@ -1,0 +1,9 @@
+---
+extends: _layouts.video
+title: Сәлем сөздің анасы
+minutes: 5
+youtube: https://www.youtube.com/embed/K6MNwzmVtJk
+lessonId: CYR_A1_9_lesson
+level: A1
+---
+Ormekshi, kumurska, karlygash
