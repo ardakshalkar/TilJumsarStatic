@@ -17,8 +17,9 @@
             </div>
         </div>
         <div>
-            <a href="{{ $page->getBaseUrl() }}/levels/index.html"
-            class="inline-block text-center rounded bg-slate-600 text-white px-6 pb-4 pt-4 mt-10 w-[400px]">
+            
+            <a href="{{ $levels["A1_level"]->getUrl() }}/index.html" class="inline-block text-center rounded 
+            bg-slate-600 text-white px-6 pb-4 pt-4 mt-10 w-[400px]">
             Бастау
             </a>
         </div>
