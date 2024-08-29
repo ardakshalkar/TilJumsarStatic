@@ -4,7 +4,7 @@ title: Сізге қандай көмек керек?
 image: fairy_tale.png
 kazakh: ""
 russian: ""
-youtube: SAlrb1ZzzHY
+youtube: https://www.youtube.com/embed/SAlrb1ZzzHY
 lessonId: CYR_A2_14_lesson
 ---
 

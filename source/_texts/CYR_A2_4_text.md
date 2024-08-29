@@ -4,7 +4,7 @@ title: Менің отбасым
 image: fairy_tale.png
 kazakh: ""
 russian: ""
-youtube: Rm1NMAvQ2DU
+youtube: https://www.youtube.com/embed/Rm1NMAvQ2DU
 lessonId: CYR_A2_4_lesson
 ---
 

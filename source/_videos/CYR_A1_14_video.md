@@ -2,7 +2,7 @@
 extends: _layouts.video
 title: Сәлем сөздің анасы
 minutes: 5
-youtube: https://www.youtube.com/embed/sKvzEglDW5Q
+youtube: https://www.youtube.com/embed/WrwEk_kpj6k
 lessonId: CYR_A1_14_lesson
 level: A1
 ---

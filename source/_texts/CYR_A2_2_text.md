@@ -4,7 +4,7 @@ title: Демалысыңды қалай өткіздің?
 image: fairy_tale.png
 kazakh: ""
 russian: ""
-youtube: DFiQ3JE_SF8
+youtube: https://www.youtube.com/embed/DFiQ3JE_SF8
 lessonId: CYR_A2_2_lesson
 ---
 Жанардың отбасы Vs Асқардың отбасы

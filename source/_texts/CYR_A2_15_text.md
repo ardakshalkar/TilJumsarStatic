@@ -4,7 +4,7 @@ title: Dummy Title
 image: fairy_tale.png
 kazakh: ""
 russian: ""
-youtube: 3lO3SMlsDos
+youtube: https://www.youtube.com/embed/3lO3SMlsDos
 lessonId: CYR_A2_15_lesson
 ---
 Жанар осы жылы 11 сыныпты аяқтайды. Содан ол университетте оқитын әпкесі Айжаннан студент болу қалай екенін сұрады:

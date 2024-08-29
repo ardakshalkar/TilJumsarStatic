@@ -4,7 +4,7 @@ title: Қай жеріңіз ауырып тұр?
 image: fairy_tale.png
 kazakh: ""
 russian: ""
-youtube: 0yLYp53typE
+youtube: https://www.youtube.com/embed/0yLYp53typE
 lessonId: CYR_A2_10_lesson
 ---
 Қызықты ақпарат.

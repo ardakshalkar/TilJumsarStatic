@@ -9,4 +9,7 @@ youtube: https://www.youtube.com/embed/FXzQzHXzoNE
 lessonId: CYR_A2_11_lesson
 transcription: transcription 
 ---
-DUMMY TEXT
+Таң бозынан гүл ұстап, тұрамын ақ жейдемен,
+Махаббатқа масайрап, ғажайып бір күйге енем.
+Бәл өзіңдей өмірде ешкімді де сүймеп ем.
+Басқа жанға ойым жоқ, жаным, саған үйленем.
