@@ -24,12 +24,16 @@
 <h1 class="p-5 text-2xl font-bold font-['Inter'] text-center">Бейне сабақ:  {{ $page->title }}</h1>
 <div class="flex flex-col">
     <div class="w-full m-5 content-center">
-        <iframe class="mx-auto" width="840" height="450" src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- width="840" -->
+        <iframe class="mx-auto w-full lg:w-1/2 h-96"  src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
     </div>
-    <div class="w-full m-5 text-center">
-        <a href="{{ $texts[$page->textId]->getUrl() }}/index.html" class="text-2xl hover:font-bold">📜Мәтін</a> |
-        <a href="{{ $songs[$page->songId]->getUrl() }}/index.html" class="text-2xl hover:font-bold">🎶Караоке</a> |
-        <a href="{{ $videos[$page->videoId]->getUrl() }}/index.html" class="text-2xl hover:font-bold">📹Бейне жазба</a> 
+    <div class="w-full m-5">
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="{{ $texts[$page->textId]->getUrl() }}/index.html" class="w-full md:w-auto text-2xl hover:font-bold bg-gray-100 px-4 py-2 rounded-lg">📜Мәтін</a>
+            <a href="{{ $songs[$page->songId]->getUrl() }}/index.html" class="w-full md:w-auto text-2xl hover:font-bold bg-gray-100 px-4 py-2 rounded-lg">🎶Караоке</a>
+            <a href="{{ $videos[$page->videoId]->getUrl() }}/index.html" class="w-full md:w-auto text-2xl hover:font-bold bg-gray-100 px-4 py-2 rounded-lg">📹Бейне жазба</a> 
+        </div>
     </div>
 </div>
 @endsection
