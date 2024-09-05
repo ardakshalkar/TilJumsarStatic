@@ -24,15 +24,15 @@
     <span class="text-xl">Мәтін: {{ $page->title }}</span>
 </div>
 <h1 class="p-5 text-2xl font-bold font-['Inter'] text-center">Мәтін:  {{ $page->title }}</h1>
-<div class="flex">
-    <div class="w-1/2 m-5 content-center">
-        <iframe class="mx-auto" width="540" height="350" src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="flex flex-col lg:flex-row">
+    <div class="w-full lg:w-1/2 m-5 content-center">
+        <iframe class="mx-auto w-full h-96 lg:w-1/2"  src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <div class="w-1/2">
+    <div class="px-5 w-full lg:w-1/2">
         <div class="">
             @yield('content')
         </div>
-        <div class="w-1" >
+        <div class="w-auto" >
         <a href="{{ $page->getBaseUrl() }}/assets/docs/{{ $lessons[$page->lessonId]->level }}/CYR/{{ $lessons[$page->lessonId]->lessonOrder }}.pdf" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-pdf" viewBox="0 0 16 16">
         <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"/>
