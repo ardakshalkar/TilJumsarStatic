@@ -1,10 +1,10 @@
 <div class="flex flex-row">
-  <div class="w-3/4">
+  <div class="w-1/2 md:w-3/4">
     <a href="{{ $page->getBaseUrl() }}/index.html">
       <img src="{{ $page->getBaseUrl() }}/assets/images/logo.svg"/>
     </a>
   </div>
-  <div class="w-1/4">
+  <div class="w-1/2 md:w-1/4">
     <div class="w-[58px] h-10 rounded-lg justify-start items-start inline-flex">
       <div class="px-4 py-2.5 bg-orange-300 bg-opacity-0 rounded-lg shadow border border-slate-600 justify-center items-center gap-2 flex">
         <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" 
@@ -31,10 +31,7 @@
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Қаз</a>
       </li>
       <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Eng</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Рус</a>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Qaz</a>
       </li>
     </ul>
 </div>
