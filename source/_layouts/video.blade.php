@@ -26,7 +26,7 @@
 </div>
 <h1 class="p-1 md:p-5 text-2xl font-bold font-['Inter'] text-left md:text-center">Бейне жазба:  {{ $page->title }}</h1>
 <div class="flex">
-    <div class="w-full m-5 content-center">
+    <div class="w-full md:m-5 content-center">
         <iframe class="mx-auto w-full lg:w-1/2 h-96"  src="{{ $page->youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>

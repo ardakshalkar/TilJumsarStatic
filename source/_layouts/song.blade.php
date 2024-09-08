@@ -28,7 +28,7 @@
 <h1 class="p-1 md:p-5 text-2xl font-bold font-['Inter'] text-left md:text-center">Караоке:  {{ $page->title }}</h1>
 
 <div >
-  <div class="w-full m-5 content-center">
+  <div class="w-full m-1 md:m-5 content-center">
     <audio class="w-full" controls>
       <source src="{{ $page->getBaseUrl()."/assets/audio/karaoke/".$page->audio }}" type="audio/mpeg">
       Your browser does not support the audio tag.
